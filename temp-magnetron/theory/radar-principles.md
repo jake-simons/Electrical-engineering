@@ -1,44 +1,172 @@
-# Radar Principles 
+# Radar Theory — Physics and Mathematical Foundations
 
-This document explains the core radar concepts as they appear to the specific Garmin marine radar system — a 4 kW X-band pulse radar using a magnetron transmitter in the ~9.38–9.44 GHz band.
+## What Radar Is 
 
----
+Radar works by transmitting **electromagnetic waves**, letting them propagate through space, interact with objects, and measuring the **returned energy**.
 
-## 1. What the Radar Does
-
-A marine radar like the GMR 18 HD3 transmits short high-power microwave pulses and listens for echoes from objects (land, vessels, buoys, waves). Time delay and bearing give you range and direction.
-
-Key mission requirements:
-- Detect targets out to ~64 NM
-- Resolve close targets and clutter
-- Work in sea state and rain
+All radar behavior is governed by:  
+• Classical electromagnetism  
+• Wave physics  
+• Probability and statistics  
 
 ---
 
-## 2. Pulse Transmission 
+## 1. Maxwell’s Equations (The Laws Radar Obeys)
 
-Marine radar transmits pulses, not continuous waves. Important parameters are:
+Radar is entirely governed by the four **Maxwell equations**, which describe how electric and magnetic fields behave.
 
-| Parameter | Typical Value | Why it matters |
-|-----------|---------------|----------------|
-| Frequency | ~9.40 GHz (X-band) | Good balance of resolution and sea clutter performance |
-| Peak Power | ~4 kW | Enough energy for long-range detection |
-| Pulse Width | ~0.07–2.0 µs | Shorter pulses = better range resolution |
-| PRF (Pulse Rep. Freq.) | ~500–1500 Hz | Tradeoff between max range and minimum blind range |
+### Gauss’s Law (Electric Fields)
+
+∇ · E = ρ / ε₀
+
+Electric fields originate from electric charge.
 
 ---
 
-## 3. Range & Resolution
+### Gauss’s Law (Magnetism)
 
-### A — Range
+∇ · B = 0
 
-Range to a target is given by the following general equation:
+Magnetic monopoles do not exist, furthermore magnetic field lines always form loops.
 
-Range = c * (time delay)/2
+---
 
-While the Garmin GMR 18 HD3 has a maximum instrumented range of 36 nautical miles, its effective range is governed by the Inverse Fourth Power Law ((1/R^{4})). Environmental factors such as heavy precipitation and sea state can significantly reduce the signal-to-noise ratio, effectively shrinking the detection horizon well below the manufacturer's maximum spec.
+### Faraday’s Law (Electromagnetic Induction)
 
+∇ × E = − ∂B / ∂t
 
+A changing magnetic field produces an electric field.
+
+---
+
+### Ampère–Maxwell Law
+
+∇ × B = μ₀J + μ₀ε₀ ∂E / ∂t
+
+Electric currents and changing electric fields produce magnetic fields.
+
+---
+
+### What We Can Infer:
+
+• Radar waves are **self-propagating electric and magnetic fields**  
+• No medium is required (waves travel through vacuum)  
+• Energy propagates at the speed of light  
+
+---
+
+## 2. Electromagnetic Wave Propagation
+
+In free space (no charges, no currents), Maxwell’s equations imply:
+
+Electric and magnetic fields propagate as **waves**.
+
+Key properties:  
+• Speed = c ≈ 3 × 10⁸ m/s  
+• Waves spread outward from the antenna  
+• Energy decreases with distance  
+
+Radar waves typically operate in the **radio and microwave bands**.
+
+---
+
+## 3. Wave Behavior
+
+Radar waves experience:
+
+### Propagation
+Energy spreads outward, reducing received power with distance.
+The Inverse Fourth-Power Law (1/r⁴) governs this energy loss which would apply to our two-way propagation (monostatic radar) system.
+
+### Reflection and Scattering
+Objects force electromagnetic fields to satisfy boundary conditions, causing energy to scatter.
+
+### Polarization
+Orientation of the electric field affects interaction with targets.
+
+---
+
+## 4. Range Measurement (Time Delay)
+
+Radar measures distance by timing how long a wave takes to return.
+
+Range equation:
+
+Range = (speed of light × round-trip time) / 2
+
+This works because electromagnetic waves travel at a known, constant speed.
+
+---
+
+## 5. Doppler Effect (Velocity Measurement)
+
+If a target is moving toward or away from the radar, the returned signal changes frequency.
+
+Key idea:
+• Motion compresses or stretches the wave    
+• Frequency shift is proportional to radial velocity  
+
+This allows radar to measure speed and not just position.
+
+---
+
+## 6. Radar as a Signal Detection Problem
+
+The received signal is weak and corrupted by noise.
+
+Conceptually:
+
+received signal = delayed echo + noise
+
+Signal processing is used to reduce noise and improve signal-to-noise ratio, allowing accurate statistical detection and estimation of target parameters.
+
+---
+
+## 7. Statistical Signal Detection
+
+Radar detection is a **probability problem**, not a certainty.
+
+Two hypotheses:
+• H₀: only noise is present  
+• H₁: signal + noise is present  
+
+A decision threshold is chosen to balance:
+• Probability of detection  
+• Probability of false alarm  
+
+---
+
+## 8. Estimation Theory in Radar
+
+Once detection occurs, radar estimates parameters such as:
+• Range  
+• Velocity  
+• Angle  
+
+These estimates are limited by:
+• Noise  
+• Bandwidth  
+• Observation time  
+
+This is governed by statistical estimation theory.
+
+---
+
+## 9. Fundamental Limits Radar Cannot Break
+
+Radar systems must obey:
+
+• Maxwell’s equations  
+• Conservation of energy  
+• Finite speed of light  
+• Thermal noise limits  
+
+Radar **cannot**:
+• See instantaneously  
+• Exceed noise limits without more energy  
+• Violate electromagnetic physics  
+
+---
 
 
 
