@@ -12,7 +12,7 @@ The magnetron requires:
 - High peak current with very low duty cycle
 
 Typical characteristics (approximate):
-- Magnetron anode voltage: ~3–5 kV
+- Magnetron cathode voltage: ~3–5 kV
 - Pulse duration: microseconds
 - Peak current: multiple amperes
 - Average power: low, despite high peak power
