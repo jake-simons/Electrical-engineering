@@ -51,7 +51,7 @@ Rotation provides 360° coverage.
 - Increases insertion loss
 
 ### Misalignment
-- Antenna skew → bearing errors on display
+- Antenna skew show bearing errors on display
 - Distorted lobes
 
 ---
