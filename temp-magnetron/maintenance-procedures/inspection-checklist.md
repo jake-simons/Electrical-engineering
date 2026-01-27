@@ -1,4 +1,4 @@
-# Inspection Checklist – Garmin GMR 18 HD3
+# Inspection Checklist
 
 This inspection was conducted before focusing on specific subsystems such as grounding, magnetron operation, or high-voltage integrity.
 
