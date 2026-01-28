@@ -71,6 +71,14 @@ alignment sensitivity, and vibration-related faults.
 - Frequency stability limitations inherent to magnetron-based systems
 influence performance and maintenance intervals.
 
+## Measurement Constraints
+
+This project was conducted as a non-invasive maintenance inspection of an operational marine radar system. 
+
+Direct electrical measurements of high-voltage and RF sections were intentionally avoided to preserve system integrity, ensure safety, and avoid detuning or damaging calibrated components. 
+
+As a result, analysis focuses on qualitative inspection, system-level reasoning, known operating ranges, and expected failure modes rather than direct performance measurements.
+
 ## Safety Considerations
 
 - Presence of kilovolt-level DC power necessitates strict lockout,
