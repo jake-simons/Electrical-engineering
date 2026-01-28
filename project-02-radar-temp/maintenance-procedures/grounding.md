@@ -41,6 +41,10 @@ Poor grounding can cause:
    - Chassis and vessel ground
    - HV supply ground and chassis
 
+Ground continuity between the magnetron body and chassis ground was verified using a handheld DMM. Measured resistance was <0.2 Ω, indicating a solid grounding path. 
+All grounding points are electrically bonded to the chassis, and continuity testing was conducted with this grounding scheme in mind. Refer to the top-down wiring diagram 
+for additional context.
+
 ---
 
 ## What to Look Out For
@@ -51,3 +55,5 @@ Poor grounding can cause:
 - Paint or corrosion between bonding surfaces
 
 Grounding issues are one of the most common causes of degraded radar performance in marine environments.
+
+
