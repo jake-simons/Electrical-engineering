@@ -32,7 +32,8 @@ Failures here directly impact radar output.
 4. Ensured HV cabling was properly seated and insulated
 5. Observed radar behavior during controlled power-on
 
-No direct HV probing was performed to avoid unnecessary risk.
+Proper electrical bonding between the magnetron body and chassis ground was verified using a handheld DMM, with measured resistance <0.2 Ω. 
+This confirms an intact return path, which is essential for safe magnetron operation and RF containment.
 
 ---
 
