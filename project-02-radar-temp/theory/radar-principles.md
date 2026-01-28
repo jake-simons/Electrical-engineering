@@ -173,3 +173,7 @@ Radar **cannot**:
 • Violate electromagnetic physics  
 
 ---
+
+This theoretical foundation became most valuable when reasoning about system limitations, failure modes, and safety considerations encountered during maintenance
+
+---
