@@ -37,3 +37,5 @@ At X-band frequencies especially, minor corrosion can cause noticeable performan
 3. Identification of salt residue and oxidation
 4. Cleaning using appropriate non-abrasive methods
 5. Resealing where necessary to prevent moisture ingress
+
+Corrosion near RF connectors or grounding points would not only weaken mechanical integrity but could introduce impedance changes or unintended radiating paths, degrading radar performance and potentially increasing EMI.
