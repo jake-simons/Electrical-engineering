@@ -53,6 +53,8 @@ Electric currents and changing electric fields produce magnetic fields.
 • No medium is required (waves travel through vacuum)  
 • Energy propagates at the speed of light  
 
+Without these four fundamental laws, the conversion of high-voltage DC power into oscillating electromagnetic energy within the magnetron would not be possible, and radar systems could not function.
+
 ---
 
 ## 2. Electromagnetic Wave Propagation
@@ -67,6 +69,8 @@ Key properties:
 • Energy decreases with distance  
 
 Radar waves typically operate in the **radio and microwave bands**.
+
+While this level of theoretical detail was not required to perform maintenance on the unit itself, developing a deeper understanding of the underlying phenomenon allowed me to reason more intuitively about how the system behaves in practice.
 
 ---
 
@@ -84,6 +88,8 @@ Objects force electromagnetic fields to satisfy boundary conditions, causing ene
 ### Polarization
 Orientation of the electric field affects interaction with targets.
 
+Understanding how electromagnetic waves form and propagate allows for a clearer understanding of how the magnetron generates and shapes RF energy before it is coupled into the waveguide and antenna array.
+
 ---
 
 ## 4. Range Measurement (Time Delay)
@@ -94,7 +100,7 @@ Range equation:
 
 Range = (speed of light × round-trip time) / 2
 
-This works because electromagnetic waves travel at a known, constant speed.
+Because electromagnetic waves propagate at a known, constant speed, radar systems can determine target range by measuring the time delay between transmission and reception of the reflected signal.
 
 ---
 
