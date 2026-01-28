@@ -22,6 +22,10 @@ Failures here directly impact radar output.
 - Physical condition of magnetron connections
 - Absence of arcing or thermal damage
 
+No visible cracking, carbon tracking, or insulation discoloration was observed around the magnetron HV connections. 
+This suggests dielectric integrity is likely still within a safe operating margin. However, because marine humidity 
+accelerates insulation aging, this area would be a priority for periodic reinspection.
+
 ---
 
 ## Procedure Performed
