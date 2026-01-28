@@ -33,7 +33,11 @@ Failures here directly impact radar output.
 5. Observed radar behavior during controlled power-on
 
 Proper electrical bonding between the magnetron body and chassis ground was verified using a handheld DMM, with measured resistance <0.2 Ω. 
-This confirms an intact return path, which is essential for safe magnetron operation and RF containment.
+This confirms an intact return path, which is essential for safe magnetron operation and RF containment. Ground continuity measurements are 
+discussed further in the grounding section.
+
+Minor surface corrosion was observed at the magnetron grounding interface. Light mechanical cleaning was performed to remove these deposits as a 
+preventative measure to preserve grounding integrity.
 
 ---
 
