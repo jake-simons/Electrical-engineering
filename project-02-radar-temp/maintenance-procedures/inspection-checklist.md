@@ -23,11 +23,18 @@ Skipping this step can lead to misdiagnosis or unsafe testing conditions.
 - Radome seal intact
 - No signs of water ingress
 
+The seals showed mild signs of wear but remained intact, with no visible cracking. The seal material was noticeably stiffer 
+than that of a factory-new component; this observation was documented and the seals may be replaced at the next inspection.
+
 ### Internal Visual Inspection
 - No loose fasteners
 - No burnt components
 - No carbon tracking or discoloration
 - No damaged insulation
+
+All components and fasteners showed no signs of breakage or significant wear. Minor calcified deposits were observed on some fasteners; 
+however, these were limited to areas outside the radome where components are subject to continuous exposure to marine aerosols. Based on 
+their location and extent, the condition was deemed acceptable.
 
 ---
 
@@ -39,4 +46,4 @@ Skipping this step can lead to misdiagnosis or unsafe testing conditions.
 - Swollen capacitors
 - Brittle or hardened wiring insulation
 
-Any of these signs justify stopping further testing until resolved.
+Any of these conditions would warrant halting further testing until resolved. No such issues were identified during a comprehensive internal inspection.
