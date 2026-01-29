@@ -37,34 +37,55 @@ The objective of this inspection was to assess the overall condition and service
 The seals showed mild signs of wear but remained intact, with no visible cracking. The seal material was noticeably stiffer 
 than that of a factory-new component; this observation was documented and the seals may be replaced at the next inspection.
 
+Minor calcified deposits were observed on some fasteners; however, these were limited to areas outside the radome where components are subject to continuous exposure to marine aerosols. Based on 
+their location and extent, the condition was deemed acceptable.
+
 Both the physical connectors and cable entry points were free of debris, and no fraying or cracking of the insulation was observed.
 
-### Internal Inspection
+## Internal Inspection
 
-HV Capacitor Unit
+### HV Capacitor Unit
 
 | Aspect Checked          | Overview |
 | ------------------------|----------|
 | Bulging or Deformation  | No Signs observed |
 | Electrolyte Leakage     | No Signs of leakage |
-| Thermal Stress  or Discoloration | No signs present |
+| Thermal Stress  or Discoloration | No discoloration present |
 | Capacitance rating      | ~1.2 µF |
 
 Visual inspection of the capacitor housing showed no evidence of mechanical deformation, electrolyte leakage, or heat-related discoloration. 
+
 The measured capacitance of approximately 1.2 µF falls within the expected range for the given component.
 
 Based on visual condition and measured value, the capacitor shows no obvious indicators of degradation and appears suitable for continued 
 service. As with all high-voltage components, periodic re-evaluation is recommended due to environmental and electrical stress factors 
 associated with marine radar operation.
 
-- HV Capacitor Unit
-- HV Transformer Unit
-- No carbon tracking or discoloration
-- No damaged insulation
+### HV Transformer Unit
 
-All components and fasteners showed no signs of breakage or significant wear. Minor calcified deposits were observed on some fasteners; 
-however, these were limited to areas outside the radome where components are subject to continuous exposure to marine aerosols. Based on 
-their location and extent, the condition was deemed acceptable.
+| Aspect Checked          | Overview |
+| ------------------------|----------|
+| Primary Winding Resistance  | ~ 1 Ω |
+| Secondary Winding Resistance     | ~ 109 Ω |
+| Insulation Resistance         | OL (No Conduction) |
+| Inter-winding Isolation      | OL (No Conduction) |
+
+A visual inspection of the transformer assembly revealed no signs of insulation cracking, fraying, discoloration, or thermal damage.
+
+Measured resistance values of the primary and secondary windings were consistent with expected low-resistance copper windings of differing turn counts. Additional checks for 
+insulation resistance and inter-winding isolation both resulted in open-line (OL) readings, indicating no detectable short to ground or breakdown between windings.
+
+Based on visual condition and basic electrical checks, the transformer shows no clear indicators of insulation failure or winding degradation and appears suitable for continued 
+service. Due to the combined electrical, thermal, and environmental stresses present in marine radar applications, periodic re-evaluation is recommended to monitor for long-term aging effects.
+
+### Insulation Condition and Surface Contamination
+
+All components, including associated insulation materials and mounting hardware, were inspected and showed no signs of cracking, mechanical damage, or significant wear. 
+No evidence of carbon tracking, surface arcing, or corrosion was observed on any internal surfaces.
+
+Additionally, no salt deposits, moisture residue, or other conductive contamination were present, indicating that the internal enclosure remains well protected from environmental intrusion.
+
+Based on these observations, the internal HV area appears free from contamination-related risks at the time of inspection.
 
 ---
 
