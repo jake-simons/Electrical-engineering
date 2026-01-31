@@ -85,12 +85,21 @@ As a result, analysis focuses on qualitative inspection, system-level reasoning,
 ## Safety Considerations
 
 - Presence of kilovolt-level DC power necessitates strict lockout,
-discharge, and verification procedures.
+discharge, and verification procedures
 
-- Stored energy in capacitors remains hazardous even after power-down.
+- Stored energy in capacitors remains hazardous even after power-down
 
 - RF radiation exposure risks during operation require controlled
-test conditions and awareness of safe distances.
+test conditions and awareness of safe distances
 
 - Marine-specific hazards such as moisture ingress and galvanic corrosion
-increase electrical safety risks over time.
+increase electrical safety risks over time
+
+## Engineering Outcomes and Takeaways
+
+- Established a structured, non-invasive inspection approach for high-voltage RF systems operating in harsh environments
+- Improved ability to assess magnetron aging and overall RF system health through visual indicators and system-level reasoning rather than direct measurement
+- Reinforced the importance of grounding and bonding as primary factors in electrical safety, RF containment, and long-term reliability
+- Developed greater confidence operating around kilovolt-level DC systems and RF-emitting equipment while adhering to safety constraints
+- Strengthened practical understanding of RF hardware considerations directly applicable to telecommunications infrastructure
+
