@@ -3,13 +3,16 @@
 This project documents a maintenance and technical analysis on a
 Garmin GMR 18 HD3 marine radar magnetron unit. 
 
-While the physical work
-focused on inspection and preventative maintenance, the project expands
-into system-level analysis of radar theory, high-voltage DC power systems,
-and RF transmission—skills directly applicable to telecommunications
-engineering.
+While the physical work focused on inspection and preventative maintenance, the project expands
+into system-level analysis of radar theory, high-voltage DC power systems, and RF transmission—skills 
+directly applicable to telecommunications engineering.
 
-Beyond routine servicing, this project examines the engineering constraints,
+Although marine radar systems differ from commercial telecom infrastructure, the same principles apply: 
+high-frequency signal generation, controlled RF transmission, grounding for EMI control, and reliability 
+under environmental stress. This project strengthened skills directly transferable to telecommunications 
+roles involving RF hardware, base stations, microwave links, and field-deployed systems.
+
+Beyond routine servicing, this project also examines the engineering constraints,
 failure modes, and safety considerations that govern reliable radar operation
 in a harsh marine environment.
 
