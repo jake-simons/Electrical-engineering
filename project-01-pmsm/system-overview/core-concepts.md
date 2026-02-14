@@ -23,7 +23,7 @@ The system consists of four major subsystems:
 
 2. **Power Electronics Interface**
    - Microcontroller-generated 3-phase PWM
-   - Inverter stage (MOSFET-based)
+   - Inverter stage (ESC-based)
    - 36 V DC supply
 
 3. **Mechanical Structure**
